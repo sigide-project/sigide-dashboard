@@ -192,6 +192,7 @@ export function ClaimDetailPage() {
                   onChange={(e) => setStatusDraft(e.target.value as AdminClaimStatus)}
                   displayEmpty
                   inputProps={{ 'aria-label': 'Claim status' }}
+                  sx={{ minWidth: 150 }}
                 >
                   <MenuItem value="pending">Pending</MenuItem>
                   <MenuItem value="accepted">Accepted</MenuItem>

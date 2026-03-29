@@ -99,16 +99,21 @@ export const FiltersBar = styled(Box)`
 `;
 
 export const FilterSelect = styled(FormControl)`
-  min-width: 150px;
+  min-width: 180px;
 
   @media (max-width: ${MOBILE_BP}) {
-    min-width: 0;
+    min-width: 120px;
     flex: 1;
   }
 
   .MuiOutlinedInput-root {
     border-radius: 8px;
     background: white;
+  }
+
+  .MuiSelect-select {
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 `;
 

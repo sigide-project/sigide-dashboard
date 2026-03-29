@@ -23,10 +23,12 @@ export const ContentWrapper = styled(Box)`
 
 export const MainContent = styled(Box)`
   flex: 1;
+  min-width: 0;
   margin-top: ${TOPBAR_HEIGHT}px;
   padding: 24px;
   background: #f8fafc;
   overflow-y: auto;
+  overflow-x: hidden;
 
   @media (max-width: ${MOBILE_BP}) {
     padding: 16px;

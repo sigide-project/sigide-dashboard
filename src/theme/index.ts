@@ -36,6 +36,13 @@ const theme = createTheme({
         root: { fontWeight: 500 },
       },
     },
+    MuiSelect: {
+      styleOverrides: {
+        select: {
+          minWidth: '60px',
+        },
+      },
+    },
   },
 });
 

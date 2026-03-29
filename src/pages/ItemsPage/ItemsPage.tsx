@@ -226,7 +226,7 @@ export function ItemsPage() {
             >
               <VisibilityOutlined fontSize="small" />
             </IconButton>
-            <FormControl size="small" variant="outlined">
+            <FormControl size="small" variant="outlined" sx={{ minWidth: 120 }}>
               <Select
                 value={row.status}
                 onChange={(e) => {
